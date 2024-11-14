@@ -40,6 +40,7 @@
             opacity: 0;
             animation: fadeIn 2s 0.5s ease-in-out forwards;
         }
+        /* Loader styling */
         .loader {
             margin: 0 auto;
             width: 50px;
@@ -48,8 +49,6 @@
             border: 5px solid rgba(255, 255, 255, 0.2);
             border-top-color: #fff;
             animation: spin 1s linear infinite;
-            opacity: 0;
-            animation: fadeIn 2s 1s ease-in-out forwards;
         }
         .copyright {
             margin-top: 20px;
@@ -58,6 +57,7 @@
             opacity: 0;
             animation: fadeIn 2s 1.5s ease-in-out forwards;
         }
+        /* Keyframes for animations */
         @keyframes spin {
             to { transform: rotate(360deg); }
         }
@@ -71,10 +71,10 @@
     <div class="container">
         <h1>🚧 Site Under Development 🚧</h1>
         <p>We're working hard to bring you an amazing experience. Please check back soon!</p>
-        <div class="loader"></div>
+        <div class="loader"></div> <!-- This is the working loader -->
     </div>
     <div class="copyright">
-        &copy; <script>document.write(new Date().getFullYear());</script> adletads. All rights reserved.
+        &copy; <script>document.write(new Date().getFullYear());</script> AdletAds. All rights reserved.
     </div>
 </body>
 </html>
