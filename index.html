@@ -14,12 +14,17 @@
             font-family: Arial, sans-serif;
             background: linear-gradient(135deg, #74b9ff, #a29bfe);
             display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
-            flex-direction: column;
             height: 100vh;
             color: #fff;
             overflow: hidden;
+        }
+        .logo {
+            max-width: 150px;
+            margin-bottom: 20px;
+            animation: fadeIn 2s ease-in-out forwards;
         }
         .container {
             text-align: center;
@@ -27,23 +32,22 @@
             border-radius: 15px;
             background: rgba(0, 0, 0, 0.5);
             box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
-            max-width: 90%; /* Adjusted for mobile */
+            max-width: 90%;
         }
         .container h1 {
-            font-size: 2.5em; /* Adjusted for mobile */
+            font-size: 2.5em;
             margin-bottom: 0.5em;
             animation: fadeIn 2s ease-in-out forwards;
         }
         .container p {
-            font-size: 1.1em; /* Adjusted for mobile */
+            font-size: 1.1em;
             margin-bottom: 1em;
             opacity: 0;
             animation: fadeIn 2s 0.5s ease-in-out forwards;
         }
-        /* Loader styling */
         .loader {
             margin: 0 auto;
-            width: 40px; /* Adjusted size for mobile */
+            width: 40px;
             height: 40px;
             border-radius: 50%;
             border: 4px solid rgba(255, 255, 255, 0.2);
@@ -52,12 +56,11 @@
         }
         .copyright {
             margin-top: 20px;
-            font-size: 0.8em; /* Adjusted for mobile */
+            font-size: 0.8em;
             color: #ddd;
             opacity: 0;
             animation: fadeIn 2s 1.5s ease-in-out forwards;
         }
-        /* Keyframes for animations */
         @keyframes spin {
             to { transform: rotate(360deg); }
         }
@@ -65,30 +68,19 @@
             from { opacity: 0; }
             to { opacity: 1; }
         }
-        /* Media query for smaller screens */
-        @media (max-width: 480px) {
-            .container h1 {
-                font-size: 1.8em;
-            }
-            .container p {
-                font-size: 1em;
-            }
-            .loader {
-                width: 30px;
-                height: 30px;
-                border-width: 3px;
-            }
-        }
     </style>
 </head>
 <body>
+    <!-- Logo Positioned Above the Container -->
+    <img src="https://i.postimg.cc/RZ914pPW/IMG-3928-removebg-preview.png" alt="Logo" class="logo">
+
     <div class="container">
         <h1>🚧 Site Under Development 🚧</h1>
         <p>We're working hard to bring you an amazing experience. Please check back soon!</p>
-        <div class="loader"></div> <!-- This is the working loader -->
+        <div class="loader"></div>
     </div>
     <div class="copyright">
-        &copy; <script>document.write(new Date().getFullYear());</script> adletads. All rights reserved.
+        &copy; <script>document.write(new Date().getFullYear());</script> AdletAds. All rights reserved.
     </div>
 </body>
 </html>
