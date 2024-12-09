@@ -30,7 +30,7 @@
     "typescript": "^5.5.3",
     "typescript-eslint": "^8.3.0",
     "vite": "^5.4.2"
-  },"homepage": "https://<your-username>.github.io/<repo-name>",
+  },"homepage": "https://adletads.github.io/site/",
 "scripts": {
   "predeploy": "npm run build",
   "deploy": "gh-pages -d build"
