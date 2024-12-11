@@ -11,7 +11,7 @@ export const products = [
       'Multiple size options'
     ],
     price: 'Starting at RS.2500',
-    image: 'https://images.unsplash.com/photo-1563089145-599997674d42?auto=format&fit=crop&q=80&w=800',
+    image: 'https://brandprofesor.com/wp-content/uploads/2021/09/LED-Clip-On.png',
     category: 'Physical Displays'
   },
   {
@@ -26,7 +26,7 @@ export const products = [
       'Customizable designs'
     ],
     price: 'Starting at RS.500',
-    image: 'https://images.unsplash.com/photo-1572502014533-8275ca87eb55?auto=format&fit=crop&q=80&w=800',
+    image: 'https://cdn.prod.website-files.com/617ac0d059899a69fd8216ec/6372d84fd3c792548b0c0d47_NFC%20Blog%20OG%202-p-800.webp',
     category: 'Smart Solutions'
   },
   {

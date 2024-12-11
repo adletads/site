@@ -11,6 +11,6 @@ export const team = [
     name: 'Sonu S',
     role: 'Co Founder & CTO',
     bio: 'Award-winning designer with a passion for creating impactful advertising campaigns.',
-    image: 'https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&q=80&w=400'
+    image: 'https://i.imghippo.com/files/TdMe8904fNM.jpg'
   }
 ];
