@@ -10,7 +10,7 @@ export const products = [
       'Customizable messages',
       'Multiple size options'
     ],
-    price: 'Starting at $149',
+    price: 'Starting at RS.2500',
     image: 'https://images.unsplash.com/photo-1563089145-599997674d42?auto=format&fit=crop&q=80&w=800',
     category: 'Physical Displays'
   },
@@ -25,7 +25,7 @@ export const products = [
       'Premium card materials',
       'Customizable designs'
     ],
-    price: 'Starting at $99/pack',
+    price: 'Starting at RS.500',
     image: 'https://images.unsplash.com/photo-1572502014533-8275ca87eb55?auto=format&fit=crop&q=80&w=800',
     category: 'Smart Solutions'
   },

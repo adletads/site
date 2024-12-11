@@ -23,9 +23,9 @@ export function Footer() {
             <h4 className="text-lg font-semibold mb-4">Contact</h4>
             <ul className="space-y-2 text-gray-400">
               <li>Jinu Joy</li>
-              <li>123 Ad Street</li>
-              <li>Marketing City, MC 12345</li>
-              <li>Email: adletads@gmail.com</li>
+              <li>Green Avenue Street</li>
+              <li>Vennala,Ernakulam 12345</li>
+              <li>Email: adletadvertisements@gmail.com</li>
             </ul>
           </div>
           <div>
