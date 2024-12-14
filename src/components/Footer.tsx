@@ -34,7 +34,7 @@ export function Footer() {
               <a href="#" className="text-gray-400 hover:text-white"><Facebook size={24} /></a>
               <a href="#" className="text-gray-400 hover:text-white"><Twitter size={24} /></a>
               <a href="#" className="text-gray-400 hover:text-white"><Linkedin size={24} /></a>
-              <a href="#" className="text-gray-400 hover:text-white"><Instagram size={24} /></a>
+              <a href="https://www.instagram.com/adletads/" className="text-gray-400 hover:text-white"><Instagram size={24} /></a>
             </div>
           </div>
         </div>
