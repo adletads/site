@@ -25,7 +25,7 @@ export const products = [
       'Premium card materials',
       'Customizable designs'
     ],
-    price: 'Starting at RS.500',
+    price: 'Starting at RS.499',
     image: 'https://cdn.prod.website-files.com/617ac0d059899a69fd8216ec/6372d84fd3c792548b0c0d47_NFC%20Blog%20OG%202-p-800.webp',
     category: 'Smart Solutions'
   },
