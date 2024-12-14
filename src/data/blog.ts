@@ -1,7 +1,7 @@
 export const blogPosts = [
   {
     id: '1',
-    title: 'The Future of Digital Advertising',
+    title: 'Sona is brainless',
     excerpt: 'Explore the latest trends and technologies shaping the future of digital advertising.',
     content: `The advertising landscape is rapidly evolving with new technologies and changing consumer behaviors. 
     In this post, we explore emerging trends like AI-powered targeting, interactive ads, and privacy-first advertising...`,
