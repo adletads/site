@@ -1,4 +1,4 @@
-import { Mail, Phone, MapPin } from 'lucide-react';
+import { Mail, Phone, MapPin, MessageCircle } from 'lucide-react';
 
 export function Contact() {
   return (
@@ -7,7 +7,7 @@ export function Contact() {
         <div className="text-center">
           <h1 className="text-3xl font-bold text-gray-900 sm:text-4xl">Contact Us</h1>
           <p className="mt-4 text-lg text-gray-600">
-            Get in touch with us for any inquiries about our advertising solutions
+            Get in touch with us for any inquiries about our advertising solutions.
           </p>
         </div>
 
@@ -23,7 +23,7 @@ export function Contact() {
                 <div className="ml-4">
                   <p className="text-sm font-medium text-gray-900">Email</p>
                   <a href="mailto:adletadvertisements@gmail.com" className="text-base text-gray-600 hover:text-blue-600">
-                  adletadvertisements@gmail.com
+                    adletadvertisements@gmail.com
                   </a>
                 </div>
               </div>
@@ -45,9 +45,22 @@ export function Contact() {
                 <div className="ml-4">
                   <p className="text-sm font-medium text-gray-900">Office</p>
                   <p className="text-base text-gray-600">
+                    Adlet<br />
                     Green Avenue<br />
-                    Vennala,ernakulam
+                    Vennala, Ernakulam
                   </p>
+                </div>
+              </div>
+
+              <div className="flex items-center">
+                <div className="flex-shrink-0">
+                  <MessageCircle className="h-6 w-6 text-blue-600" />
+                </div>
+                <div className="ml-4">
+                  <p className="text-sm font-medium text-gray-900">WhatsApp</p>
+                  <a href="https://wa.me/yourphonenumber" className="text-base text-gray-600 hover:text-blue-600">
+                    +91 9633207915
+                  </a>
                 </div>
               </div>
             </div>
